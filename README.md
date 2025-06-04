@@ -50,24 +50,56 @@ Framework CSS: Bootstrap 5
 Estructura del Proyecto
 proyecto-tienda/
 ├── admin/
-│   ├── agregar.php         # Formulario para añadir productos
-│   ├── borrar.php          # Lógica para eliminar productos
-│   ├── editar.php          # Formulario para editar productos
-│   └── listar.php          # Listado de productos para administración
+
+│   ├── agregar.php         
+# Formulario para añadir productos
+
+│   ├── borrar.php         
+# Lógica para eliminar productos
+
+│   ├── editar.php         
+# Formulario para editar productos
+
+│   └── listar.php          
+# Listado de productos para administración
+
 ├── filtros/
-│   ├── filtro-dapop.php    # Filtro por marca Dapop
-│   ├── filtro-iwoo.php     # Filtro por marca I'Woo
-│   └── ...                 # Más filtros por marca
+│   ├── filtro-dapop.php    
+# Filtro por marca Dapop
+
+│   ├── filtro-iwoo.php    
+# Filtro por marca I'Woo
+│   └── ...                 
+# Más filtros por marca
+
 ├── categorias/
-│   ├── accesorios.php      # Filtro por categoría Accesorios
-│   ├── cejas.php           # Filtro por categoría Cejas
-│   └── ...                 # Más filtros por categoría
-├── includes/               # Archivos compartidos
-├── uploads/                # Carpeta para imágenes subidas
-├── index.php               # Página principal
-├── login.html              # Sistema de autenticación básico
-├── admin.php               # Panel de administración
+
+│   ├── accesorios.php      
+# Filtro por categoría Accesorios
+
+│   ├── cejas.php           
+# Filtro por categoría Cejas
+
+│   └── ...                 
+# Más filtros por categoría
+
+├── includes/               
+# Archivos compartidos
+
+├── uploads/               
+# Carpeta para imágenes subidas
+
+├── index.php              
+# Página principal
+
+├── login.html             
+# Sistema de autenticación básico
+
+├── admin.php              
+# Panel de administración
+
 └── productos.php           # Vista detallada de productos
+
 Requisitos del Sistema
 Servidor web con PHP (≥7.4 recomendado)
 
